@@ -1,0 +1,182 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        footer {
+          text-align: center;
+          padding: 2px;
+          background-color: rgb(230, 222, 220);
+          color: rgb(17, 1, 1);
+        }
+        </style>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Weather app</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Delhi</a></li>
+                  <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Banglore</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Usage Guide</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <h1 class="my-4 text-center">Weather for Delhi</h1>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Temperature</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">50%<small class="text-body-secondary fw-light">/seconds</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>10 people influenced</li>
+                      <li>2 people died</li>
+                      <li>customer support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Check</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Humadity</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">65%<small class="text-body-secondary fw-light">/seconds</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>20 people influenced</li>
+                      <li>10 people died</li>
+                      <li>Priority email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Check</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Cloud</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">40%<small class="text-body-secondary fw-light">/seconds</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 people influenced</li>
+                      <li>0 people died</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Check</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <h1 class="text-center mb-4">Weather of other common places</h1>
+        
+            <div class="table-responsive">
+              <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th style="width: 34%;"></th>
+                    <th style="width: 22%;">Temperature</th>
+                    <th style="width: 22%;">Sunrise</th>
+                    <th style="width: 22%;">Sunset</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">India</th>
+                    <td>30%</td>
+                    <td>34%</td>
+                    <td>67%</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">USA</th>
+                    <td>10%</td>
+                    <td>74%</td>
+                    <td>45%</td>
+                    
+                  </tr>
+                </tbody>
+        
+                <tbody>
+                  <tr>
+                    <th scope="row" class="text-start">Russia</th>
+                    <td>10%</td>
+                    <td>80%</td>
+                    <td>75%</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">China</th>
+                    <td>64%</td>
+                    <td>84%</td>
+                    <td>45%</td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Dubai</th>
+                    <td>89%</td>
+                    <td>74%</td>
+                    <td>55%</td>
+                   
+                  </tr>
+                  <tr>
+                    <th scope="row" class="text-start">Singapore</th>
+                    <td>20%</td>
+                    <td>80%%</td>
+                    <td>100%</td>
+                   
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </main>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+     <footer>
+        <p>Author: Prachi pandey<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+</body>
+</html>
